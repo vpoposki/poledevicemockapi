@@ -2,8 +2,7 @@
 	"register": {
 		"providerId": 1
 	},
-	"appUrl":
-		{
+	"appUrl": {
 			"appUrl": ""
 		},
 
@@ -60,6 +59,6 @@
 			"buttonPrimaryHex": "",
 			"buttonSecondaryHex": "",
 			"navbarPrimaryTextHex": "",
-			"navbarSecondaryTextHex": "",
+			"navbarSecondaryTextHex": ""
 		}
 }
