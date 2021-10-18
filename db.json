@@ -1,14 +1,65 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"register": {
+		"providerId": 1
+	},
+	"appUrl":
+		{
+			"appUrl": ""
+		},
+
+
+	"licensePlate":
+		{
+			"isValid": true,
+			"sessionId": 1
+		},
+
+	"parkingOptions":
+		{
+			"canDoMinutes": true,
+			"pricePerMinute": 2,
+			"hourOptions": [
+				{
+					"hourOptionId": 1,
+					"durationHours": 1,
+					"price": 1
+				},
+				{
+					"hourOptionId": 2,
+					"durationHours": 5,
+					"price": 3
+				}
+			]
+		},
+
+	"paymentSummary":
+		{
+			"plate_number": "some_number",
+			"durationMinutes": 0,
+			"durationHours": 1,
+			"totalCost": 5
+		},
+
+	"paymentDone":
+		{
+			"extednUrl": "",
+			"parkingExpiry": 13214235987349
+		},
+
+	"phoneNumber":
+		{
+			"success": true
+		},
+
+	"uiData":
+		{
+			"logoUrl": "",
+			"navbarEditImageUrl": "",
+			"ambientDarkHex": "",
+			"ambientLightHex": "",
+			"buttonPrimaryHex": "",
+			"buttonSecondaryHex": "",
+			"navbarPrimaryTextHex": "",
+			"navbarSecondaryTextHex": "",
+		}
 }
